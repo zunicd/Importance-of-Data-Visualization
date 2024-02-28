@@ -1,5 +1,17 @@
 # Importance of Data Visualization
 
+> The [accompanying article](
+> https://damirzunic.com/importance-of-data-visualization-2/) to this project provides a slightly condensed perspective on the importance of graphical representations, offering a straightforward view on the topic.
+
+**NOTE:**
+
+Please be aware that ipywidgets and IPython.display visualizations may not render on GitHub. Therefore, it is recommended to download the notebook and run it on your local machine to view the visualizations.
+
+In addition to the visualizations displayed in the notebook, I previously created "datasaurus" plots in Tableau using the same data:
+
+- [Datasaurs](https://public.tableau.com/profile/damir.zunic#!/vizhome/Datasaurus_16107690266990/Dino)
+- [Datasaurus Dozen](https://public.tableau.com/profile/damir.zunic#!/vizhome/DatasaurusDozen_15735993943610/DatasaurusDozen?publish=yes) (use the slider to switch among 13 datasets)
+
 
 
 ## Objective
@@ -50,11 +62,13 @@ This example highlights that descriptive statistics and numerical data alone may
 
 ## Datasaurus
 
-The Datasaurus dataset was created by data visualization expert Alberto Cairo in 2016. This dataset consists of data points that have seemingly normal statistics. However, when plotted, these points reveal the unique shape of a dinosaur.
+The Datasaurus dataset was created by data visualization expert Alberto Cairo in 2016. This dataset consists of 142 data points that have seemingly normal statistics. 
+
+<img src="images/Dino - Stats.png"  width="150"/>  
+
+However, when plotted, these points reveal the unique shape of a dinosaur.
 
 <img src="images/Dino.png" width="400" />  
-
-
 
 ## Datasaurus Dozen
 
@@ -89,8 +103,6 @@ There's an option to save all plots as `.png` files for later GIF creation.
 To play the animation, you will need to download the notebook and run the *`dd_animate()`* function after executing all the necessary cells.
 
 If you prefer not to download the notebook, you can view the "animated images" in GIF format in the next chapter.
-
-
 
 ### Creating GIF
 
@@ -129,7 +141,8 @@ We've generated two versions of the GIF:
 
 ## Acknowledgements
 
-I'd like to express my gratitude to everyone who read the blog "Importance of Data Visualization" on my portfolio website and showed interest in this topic. Your support inspired me to create this repository and update the blog with additional information and visualizations.
+I'd like to express my gratitude to everyone who read the blog [Importance of Data Visualization](
+https://damirzunic.com/importance-of-data-visualization-2/) on my portfolio website and showed interest in this topic. Your support inspired me to create this repository and update the blog with additional information and visualizations.
 
 ## License
 
